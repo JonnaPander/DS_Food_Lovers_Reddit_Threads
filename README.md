@@ -68,7 +68,7 @@ After pulling the data, I prepared it before running it through an ensemble of m
 *	Mapped the name of each Subreddit (IndianFood, whole30) to a binary numeric value (0, 1)
 *	Created a function that applied regex to remove titles with characters that where not numbers or letters (numbers where important to keep because they are used frequently in whole30) and parse the titles into individual words while removing stopwords
 
-Here is why keeping numbers was important to indentifying whole30 Subreddit:<br>
+Here is why keeping numbers was important to identifying whole30 Subreddit:<br>
 ![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/assets/ltr_num.png "Importance of Keeping Numbers")
 
 <a id=Model Building></a>
