@@ -69,7 +69,7 @@ After pulling the data, I prepared it before running it through an ensemble of m
 *	Created a function that applied regex to remove titles with characters that where not numbers or letters (numbers where important to keep because they are used frequently in whole30) and parse the titles into individual words while removing stopwords
 
 Here is why keeping numbers was important to indentifying whole30 Subreddit:
-![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/ltr_num.PNG "Importance of Keeping Numbers")
+![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/assets/ltr_num.PNG "Importance of Keeping Numbers")
 
 <a id=Model Building></a>
 ## Model Building 
@@ -87,8 +87,8 @@ Both models performed similarly, beating the Baseline Accuracy of 0.48, with Nai
 
 <a id=Visualization></a>
 ## Visualization
-![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/HistOutcomes.PNG "Histogram of Outcomes")
-![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/Matrix.PNG "Confusion Matrix")
+![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/assets/HistOutcomes.PNG "Histogram of Outcomes")
+![alt text](https://github.com/JonnaPander/DS_Food_Lovers_Reddit_Threads/blob/master/assets/Matrix.PNG "Confusion Matrix")
 
 <a id=Conclusions/Recommendations></a>
 ## Conclusions/Recommendations
