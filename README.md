@@ -1,5 +1,12 @@
+# Reddit Thread Classifier: Project Overview
+* Utilized Reddit API & Natural Language Processing (NLP) to create a supervised learning tool for classifying Reddit Threads
+* Pulled over 17,000 submissions from whole30 and IndianFood Subreddits using python 
+* Applied bs4 (BeautifulSoup) python package for parsing HTML 
+* Used time module to delay requests per Reddit's limit of 60 requests per minute
+* Applied Logistic Regression with Count Vectorizer and utilized GridsearchCV to find the best model
+* Applied Multinomial Naive Bayes with TfidfVectorizer
+
 ### Contents:
-- [Project Overview](#Overview)
 - [Problem Statement](#Problem-Statement)
 - [Executive Summary](#Executive-Summary)
 - [Data Dictionary](#Data-Dictionary)
@@ -10,15 +17,6 @@
 - [Model Performance](#Model-Performance)
 - [Visualization](#Visualization)
 - [Conclusions/Recommendations](#Conclusions/Recommendations)
-
-<a id=Overview></a>
-# Reddit Thread Classifier: Project Overview
-* Utilized Reddit API & Natural Language Processing (NLP) to create a supervised learning tool for classifying Reddit Threads
-* Pulled over 17,000 submissions from whole30 and IndianFood Subreddits using python 
-* Applied bs4 (BeautifulSoup) python package for parsing HTML 
-* Used time module to delay requests per Reddit's limit of 60 requests per minute
-* Applied Logistic Regression with Count Vectorizer and utilized GridsearchCV to find the best model
-* Applied Multinomial Naive Bayes with TfidfVectorizer
 
 <a id=Problem Statement></a>
 ## Problem Statement
